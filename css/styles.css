@@ -151,7 +151,6 @@ ul {
 
 .text-header {
     display: block;
-        
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
@@ -170,11 +169,10 @@ ul {
 
 .text-item {
     display: flex;
-    padding right: 10px;
     outline: 2px solid red;
 }
 
-.mail-img::before {
+/* .mail-img::before {
     content: "";
     display: block;
     width: 16px;
@@ -187,6 +185,17 @@ ul {
 
 .mail-img::before:hover {
     background-image: url(../images/page1studio/envelope\ \(hover\).svg);
+} */
+
+.mail-img {
+    display:flex;
+        /* padding right: 10px;
+    display: flex; */
+    outline: 2px solid red;
+}
+.size {
+    background-size: cover;
+    background-repeat: repeat;
 }
 
 .text-header:hover,
