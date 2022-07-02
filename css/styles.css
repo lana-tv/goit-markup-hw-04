@@ -286,7 +286,7 @@ ul {
     display: block;
     /* width: 270px; */
     height: 120px;
-        
+    background-repeat: no-repeat;    
     background-size: contain;
     background-position: center;
     background-color: var(--color-bg);
@@ -298,21 +298,22 @@ ul {
 
 .title-before:nth-child(1):before {
     background-image: url(../images/page1studio/antenna1.svg);
-}
+    background-size: 70px;
+    }
 
 .title-before:nth-child(2):before {
     background-image: url(../images/page1studio/clock1.svg);
-  
+    background-size: 70px;
 }
 
 .title-before:nth-child(3):before {
     background-image: url(../images/page1studio/diagram1.svg);
-    /* background-size: 70px; */
+    background-size: 70px;
 }
 
 .title-before:nth-child(4):before {
     background-image: url(../images/page1studio/astronaut1.svg);
-    
+    background-size: 70px;
 }
 
 .title-dignity-text {
