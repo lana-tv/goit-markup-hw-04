@@ -59,8 +59,6 @@ ul {
     padding-right: 15px;
     margin-right: auto;
     margin-left: auto;
-
-    /* outline: 4px solid red; */
 }
 
 .hero-accommodation {
@@ -105,8 +103,7 @@ ul {
 .nav {
     display: flex;
     justify-content: space-between;
-    /* outline: 4px solid red; */
-    }    
+}    
 
 .logo-line {
     display: flex;
@@ -173,8 +170,6 @@ ul {
     background-size: cover;
     fill: var(--color-text-main);
     padding-right: 10px;
-
-    /* outline: 2px solid red; */
 }
 
 .size:hover,
@@ -286,9 +281,7 @@ fill: var(--color-hover-focus)
     background-color: var(--color-bg);
     border-radius: 4px;
     margin-bottom: 30px;
-    
-    /* outline: 3px solid red; */
-    }
+}
 
     /* .title-before::before {
     content: "";
@@ -302,8 +295,7 @@ fill: var(--color-hover-focus)
     border-radius: 4px;
     margin-bottom: 30px; */
 
-    /* outline: 3px solid red; */
-/* }
+ /* }
 
 .title-before:nth-child(1):before {
     background-image: url(../images/page1studio/antenna1.svg);
@@ -538,13 +530,10 @@ fill: var(--color-hover-focus)
     padding-top: 20px;
     padding-left: 24px;
     padding-bottom: 20px;
-    
-    
+        
     border-right: 1px solid var(--color-border);
     border-left: 1px solid var(--color-border);
     border-bottom: 1px solid var(--color-border);
-
-    /* outline: 4px solid blueviolet; */
 }
 
 .portfolio-works {
@@ -554,8 +543,6 @@ fill: var(--color-hover-focus)
     line-height: 2.0;
     letter-spacing: 0.06em;
     color: var(--color-title-main);
-   
-    /* outline: 4px solid white; */
 }
 
 .portfolio-works-text {
@@ -565,8 +552,6 @@ fill: var(--color-hover-focus)
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--color-text-main);
-
-    /* outline: 4px solid red; */ */
 }
 
 .footer {
