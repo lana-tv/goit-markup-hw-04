@@ -461,12 +461,16 @@ fill: var(--color-hover-focus)
 
 .client-logo {
     display: inline-block;
-    fill: red;
-    /* fill: var(--color-social); */
+    fill: var(--color-social);
 }
 
 .client-box:not(:last-child) {
     margin-right:30px;
+}
+
+.client-logo:hover,
+.client-logo:focus {
+    fill: var(--color-hover-focus);
 }
 
 /* Page 2 */
