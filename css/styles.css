@@ -335,7 +335,7 @@ fill: var(--color-hover-focus);
 
 	font-weight: 500;
 	font-size: 16px;
-	line-height: 1.9;
+	line-height: 1.19;
 	letter-spacing: 0.03em;
 	color: var(--color-title-main);
 }
@@ -343,7 +343,7 @@ fill: var(--color-hover-focus);
 .title-person-text {
 	/* font-weight: 400; */
 	font-size: 16px;
-	line-height: 1.9;
+	line-height: 1.19;
 	letter-spacing: 0.03em;
 	/* color: var(--color-text-main); */
 }
@@ -353,12 +353,34 @@ fill: var(--color-hover-focus);
 	width: 206px;
 	justify-content: space-around;
 	padding-top: 16px;
-	fill: var(--color-social);
-	}
+}
 
-.social-img {
+.social-link {
 	display: flex;
- 
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	border: none;
+	border-radius: 50%;
+	width: 44px;
+	height: 44px;
+}
+
+.social-link:hover .social-img-team {
+	fill: var(--color-h1)
+}
+.social-link:focus .social-img-team {
+	fill: var(--color-h1)
+}
+
+.social-link:hover,
+.social-link:focus {
+		background: var(--color-hover-focus);
+}
+
+.social-img-team {
+	display: flex;
+	fill: var(--color-social)
 }
 
 .adress {
@@ -417,6 +439,11 @@ fill: var(--color-hover-focus);
 	justify-content: center;
 }
 
+.box {
+	display: flex;
+	justify-content: center;
+}
+
 .client-box {
 	display: flex;
 	justify-content: center;
@@ -432,7 +459,7 @@ fill: var(--color-hover-focus);
 	fill: var(--color-social);
 }
 
-.client-box:not(:last-child) {
+.box:not(:last-child) {
 	margin-right:30px;
 }
 
@@ -452,6 +479,8 @@ fill: var(--color-hover-focus); */
 .client-link:focus .client-logo {
 	fill: var(--color-hover-focus);
 }
+
+
 
 /* Page 2 */
 
@@ -596,16 +625,10 @@ fill: var(--color-hover-focus); */
 	justify-content: space-between;
 }
 
-.button-team {
-	padding: 0px;
-	border: none;
-	border-radius: 50%;
-	background: var(--color-h1);
-	width: 44px;
-	height: 44px;
-}
-
-.button {
+.social {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	padding: 0px;
 	border: none;
 	background: rgba(255, 255, 255, 0.1);
@@ -614,16 +637,9 @@ fill: var(--color-hover-focus); */
 	height: 44px;
 }
 
-.button:hover,
-.button:focus,
-.button-team:hover,
-.button-team:focus {
+.social:hover,
+.social:focus {
 	background: var(--color-hover-focus);
-}
-
-.button-team:hover,
-.button-team:focus {
-	fill: var(--color-h1);
 }
 
 .add {
@@ -644,7 +660,7 @@ fill: var(--color-hover-focus); */
 	padding-right: 34px;
 }
 
-.social-img-footer {
+.social-img {
 	display: inline-flex;
 	fill: var(--color-h1);
 }
